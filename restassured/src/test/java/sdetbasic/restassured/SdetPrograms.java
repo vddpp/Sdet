@@ -112,7 +112,6 @@ public class SdetPrograms {
         WebElement phoneError = driver.findElement(By.xpath("//span[text()=\"Phone Number can't be blank\"]"));
         Assert.assertEquals(phoneError.getText().trim(), "Phone Number can't be blank");
         
-        Thread.sleep(2000);
     }
 	
 	@AfterMethod(alwaysRun = true)
