@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Autify Automation Suite">
+    <test name="Autify Tests">
+        <groups>
+            <run>
+                <include name="WindowHandling"/>
+                <include name="ValidateForm"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="sdetbasic.restassured.SdetPrograms"/>
+        </classes>
+    </test>
+</suite>

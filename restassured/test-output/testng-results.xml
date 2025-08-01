@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-01T18:30:38 IST" name="Autify Automation Suite" finished-at="2025-08-01T18:31:03 IST" duration-ms="24816">
+    <groups>
+      <group name="WindowHandling">
+        <method signature="SdetPrograms.testWindowHandles()[pri:0, instance:sdetbasic.restassured.SdetPrograms@60099951]" name="testWindowHandles" class="sdetbasic.restassured.SdetPrograms"/>
+      </group> <!-- WindowHandling -->
+      <group name="ValidateForm">
+        <method signature="SdetPrograms.testSignUpErrorMessages()[pri:0, instance:sdetbasic.restassured.SdetPrograms@60099951]" name="testSignUpErrorMessages" class="sdetbasic.restassured.SdetPrograms"/>
+      </group> <!-- ValidateForm -->
+    </groups>
+    <test started-at="2025-08-01T18:30:38 IST" name="Autify Tests" finished-at="2025-08-01T18:31:03 IST" duration-ms="24816">
+      <class name="sdetbasic.restassured.SdetPrograms">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:sdetbasic.restassured.SdetPrograms@60099951]" started-at="2025-08-01T18:30:38 IST" name="initialize" finished-at="2025-08-01T18:30:44 IST" duration-ms="5365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testSignUpErrorMessages()[pri:0, instance:sdetbasic.restassured.SdetPrograms@60099951]" started-at="2025-08-01T18:30:44 IST" name="testSignUpErrorMessages" finished-at="2025-08-01T18:30:55 IST" duration-ms="10725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpErrorMessages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sdetbasic.restassured.SdetPrograms@60099951]" started-at="2025-08-01T18:30:55 IST" name="tearDown" finished-at="2025-08-01T18:30:55 IST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:sdetbasic.restassured.SdetPrograms@60099951]" started-at="2025-08-01T18:30:55 IST" name="initialize" finished-at="2025-08-01T18:30:57 IST" duration-ms="2320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testWindowHandles()[pri:0, instance:sdetbasic.restassured.SdetPrograms@60099951]" started-at="2025-08-01T18:30:57 IST" name="testWindowHandles" finished-at="2025-08-01T18:31:03 IST" duration-ms="5480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWindowHandles -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sdetbasic.restassured.SdetPrograms@60099951]" started-at="2025-08-01T18:31:03 IST" name="tearDown" finished-at="2025-08-01T18:31:03 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sdetbasic.restassured.SdetPrograms -->
+    </test> <!-- Autify Tests -->
+  </suite> <!-- Autify Automation Suite -->
+</testng-results>
